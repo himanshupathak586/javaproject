@@ -1,0 +1,22 @@
+If the marks of Robert in three subjects are 78,45 and 62 respectively (each out of 100 ), write a program to calculate his total marks and percentage marks.
+
+
+public class Main {
+
+   public static void main(String[] args) {
+        
+      int num1 = 78, num2=66,num3 = 45;
+      int sum = num1 + num2 ;
+     int  sum2=sum+num3;
+     System.out.println("Sum of these numbers: "+sum2);
+     int a=sum2;
+     System.out.println("sun"+a);
+     float b=(float)a/300;
+     System.out.println(b);
+     System.out.println();
+     float c=(float)b*100;
+     System.out.println("c is "+c);
+     
+      
+   }
+}
