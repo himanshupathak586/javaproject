@@ -1,0 +1,25 @@
+Q> Write a program to calculate the sum of the first and the second last digit of a 5 digit.
+E.g.- NUMBER : 12345        OUTPUT : 1+4=5
+
+ans-
+class Ans{
+  public static void main(String[] args){
+    int n, first, second, third, forth, fifth, sum;
+    n = 23462;
+   
+    first = n/10000;     
+    n = n%10000;
+	
+    second = n/1000;     
+    n = n%1000;
+	
+    third = n/100;     
+    n = n%100;
+	
+    forth = n/10;       
+    fifth = n%10;        
+	
+    sum = first + forth;
+    System.out.println("sum : "+sum);
+  }
+}
