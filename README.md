@@ -1,3 +1,5 @@
+#Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of the rectangle
+
 import java.io.*;
 
 class Main {
